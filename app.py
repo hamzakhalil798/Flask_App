@@ -4,7 +4,6 @@ from flask_jwt import JWT, jwt_required
 from resources.user import UserRegister
 from security import authenticate, identity
 from resources.item import Item,ItemList
-import create_tables
 import datetime
 from models.store import storeModel
 from resources.store import Store,StoreList
